@@ -1,0 +1,6 @@
+id=chg_thermal_42c
+name=亮屏快充（放开）
+version=v4.1.0
+versionCode=410
+author=酷安@happier2
+description=亮屏快充：充电中解除有线温控降档 + 厂商放开档，恒定高速。默认不做功率限制（POWER_LOOP=0）；需要把功率稳在某个值时把 config.sh 的 POWER_LOOP 改成 1。按钮关闭 / 未充电时交回官方档并退出。作者：酷安@happier2

@@ -1,0 +1,7 @@
+dist/
+*.zip
+*.apk
+.DS_Store
+Thumbs.db
+*.log
+.cmp/
