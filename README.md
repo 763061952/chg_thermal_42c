@@ -38,7 +38,7 @@ Charging / Full  →  wired_thermal_remove=1
 
 ## 安装
 
-1. 下载 `dist/chg_thermal_42c-v4.1.0.zip`（或自己 `sh build.sh` 打包）
+1. 下载 `dist/chg_thermal_42c-v4.1.1.zip`（或自己 `sh build.sh` 打包）
 2. KernelSU / Magisk 里刷入，重启
 3. 看日志：`/data/local/tmp/chg_fast.log`
 
