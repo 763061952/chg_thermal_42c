@@ -3,7 +3,7 @@
 > 小米 / 红米 HyperOS 充电模块：解除有线充电的温控降档，用**厂商自己的档位**当控制量，
 > 把亮屏充电功率稳在可用区间，避免"冲高 → 过热 → 被停充"的反复通断。
 
-作者：酷安@happier2 ｜ 许可：MIT ｜ 适配：有 `xm_power` 节点的机型（HyperOS）
+作者：酷安@happier2（GitHub [@763061952](https://github.com/763061952)）｜ 许可：**GPL-3.0** ｜ 适配：有 `xm_power` 节点的机型（HyperOS）
 
 ---
 
@@ -91,6 +91,9 @@ Charging / Full  →  wired_thermal_remove=1
 
 见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。**改充电策略的 PR 必须附实测数据**，否则不收。
 
+- 问题 / 建议 / 机型标定数据 → 开 [Issue](https://github.com/763061952/chg_thermal_42c/issues)
+- 代码改动 → Fork 后提 PR
+
 ## 免责声明
 
 本模块会解除原厂的一部分充电保护逻辑，让电池工作在更高温度下。
@@ -99,4 +102,9 @@ Charging / Full  →  wired_thermal_remove=1
 
 ## 许可
 
-[MIT](LICENSE) © 2026 酷安@happier2
+[GPL-3.0](LICENSE) © 2026 酷安@happier2
+
+本程序是自由软件：你可以按自由软件基金会发布的 **GNU 通用公共许可证第 3 版**（或任何更新版本）
+的条款重新发布和/或修改它。本程序按"有用但不作任何担保"发布，详见 [LICENSE](LICENSE)。
+
+**衍生作品必须同样以 GPL-3.0 开源**——不允许闭源分发或闭源二次打包。

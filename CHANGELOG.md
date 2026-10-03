@@ -3,7 +3,8 @@
 ## v4.1.0
 - 默认 `POWER_LOOP=0`：充电期间恒定使用放开档，不再做任何功率限制（要的就是最快）
 - 配置项整理到 `config.sh`，`POLL` 显式化
-- 首次开源
+- 首次开源（仓库：https://github.com/763061952/chg_thermal_42c）
+- 许可由 MIT 改为 **GPL-3.0**：衍生作品必须同样开源
 
 ## v4.0（稳充）
 - 新增功率闭环：每 `STEP_EVERY` 次巡检按 `current_now × voltage_now` 调一档，
