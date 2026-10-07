@@ -1,6 +1,6 @@
 id=chg_thermal_42c
-name=亮屏快充（放开）
-version=v4.1.1
-versionCode=411
+name=亮屏快充（放开 + 温度保护）
+version=v5.0.0
+versionCode=500
 author=酷安@happier2 (github.com/763061952)
-description=亮屏快充：充电中解除有线温控降档 + 厂商放开档，恒定高速。默认不做功率限制（POWER_LOOP=0）；需要把功率稳在某个值时把 config.sh 的 POWER_LOOP 改成 1。按钮关闭 / 未充电时交回官方档并退出。作者：酷安@happier2 ｜ 项目主页：github.com/763061952/chg_thermal_42c
+description=亮屏快充 v5：充电中解除有线温控降档（remove=1），支持机型适配表与温度保护（K90PM/myron 已实机标定：42℃ 交回官方、39℃ 恢复）。未知机型安全模式不写入。未充电 / 按钮关闭时交回官方。作者：酷安@happier2 ｜ 项目主页：github.com/763061952/chg_thermal_42c

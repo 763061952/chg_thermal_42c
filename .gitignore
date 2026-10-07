@@ -4,4 +4,8 @@ dist/
 .DS_Store
 Thumbs.db
 *.log
+# 例外：标定证据日志要入库
+!calibration/**/*.log
+calibration/**/_wired.txt
+calibration/**/_wireless.txt
 .cmp/
