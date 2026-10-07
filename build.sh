@@ -11,5 +11,6 @@ rm -f "$OUT"
 # 只有刷机需要的文件进包；说明书和打包脚本不进
 cd "$ROOT"
 zip -q -9 "$OUT" module.prop config.sh service.sh uninstall.sh
+zip -q -9 -r "$OUT" devices
 echo "已生成: $OUT"
-unzip -l "$OUT" | tail -3
+unzip -l "$OUT" | tail -4

@@ -34,5 +34,5 @@ git push origin feat/你的改动
 ## 特别欢迎的贡献
 
 - 各机型的**标定数据**（这是当前最缺的，代码好写、数据难出，见 `机型适配指南.md`）
-- 温度上限逻辑（ROADMAP P0）
-- 机型识别 + 查表的骨架（ROADMAP P1）
+- 温度保护精细化：中间档降流（用 `wired_chg_curr` 或档位）、斜率预测（ROADMAP P0）
+- 更多机型的 `devices/*.conf`（ROADMAP P1）
